@@ -56,7 +56,7 @@ project-root/
 │   ├── transformation.py    # Clean & transform with PySpark
 │   ├── load.py              # Insert data into PostgreSQL
 │   └── main.py              # Orchestrates the ETL pipeline
-├── datas(csv)/              # Contains CSV files with historical data (backup or offline use)
+├── datasets/              # Contains CSV files with historical data (backup or offline use)
 ├── project.ipynb            # Jupyter Notebook for EDA, modeling, and backtesting
 ├── requirements.txt         # List of Python dependencies (optional)
 ├── README.md                # This README
@@ -65,7 +65,7 @@ project-root/
 
 **Folders & Files**  
 - **data_loading/**: Python scripts for ETL tasks (Extract, Transform, Load).  
-- **datas(csv)/**: CSV files if you prefer to use local data instead of API requests.  
+- **datasets/**: CSV files if you prefer to use local data instead of API requests.  
 - **project.ipynb**: The main notebook containing Exploratory Data Analysis, Feature Engineering, LSTM training, and final backtest steps.
 
 ---
